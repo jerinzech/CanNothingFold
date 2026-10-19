@@ -1,0 +1,15 @@
+# Pins every import used across notebooks and src/kpi.py.
+# Update after the environment is first built; versions below are starting points.
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+tensorflow
+torch
+nltk
+gensim
+wordcloud
+vaderSentiment
+gymnasium
+jupyter
