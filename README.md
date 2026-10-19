@@ -20,17 +20,20 @@ notebooks/06_rnn_lstm_sentiment.ipynb      # monthly sentiment forecast
 python src/kpi.py                     # final business case: break-even, margin, cashflow
 ```
 
-## Dataset sources (verify each Kaggle slug before download; pin exact URLs here)
+## Dataset sources (slugs verified 2026-10-19; place files in `data/raw/`)
 
-| File | Source |
-|---|---|
-| specs.csv | Kaggle: shraddha4ever20/smartphone-specifications-dataset |
-| reviews.csv | Kaggle: masaladata/14-million-cell-phone-reviews (confirm 1.4M vs 14M) |
-| reviews_global.csv | Kaggle: mohankrishnathalla/mobile-reviews-sentiment-and-specification |
-| mobiles_2025.csv | Kaggle: abdulmalik1518/mobiles-dataset-2025 |
-| sales_india.csv | Kaggle: yaminh/smartphone-sale-dataset |
-| enrichment_market.csv | axis-intelligence.com foldable-phone-statistics (compiled, cited) |
-| enrichment_wb.csv | World Bank DataBank (mobile penetration) |
+| File to save as | Source | Notes |
+|---|---|---|
+| specs.csv | Kaggle: shraddha4ever20/smartphone-specifications-dataset | ships as `smartphones.csv`, 15,000 x 25 |
+| reviews.csv | Kaggle: masaladata/14-million-cell-phone-reviews | 7 files `phone_user_review_file_1..7.csv` (~1.4M total); latest review May 2017 |
+| reviews_global.csv | Kaggle: mohankrishnathalla/mobile-reviews-sentiment-and-specification | 50k reviews, 8 countries; **primary foldable corpus** |
+| mobiles_2025.csv | Kaggle: abdulmalik1518/mobiles-dataset-2025 | launch prices PK/IN/CN/US/UAE + year |
+| sales_india.csv | Kaggle: yaminh/smartphone-sale-dataset | ships as `Sales.csv`, ~3,114 rows, INR |
+| enrichment_market.csv | axis-intelligence.com foldable-phone-statistics | compile key figures into CSV, cite source |
+| enrichment_wb.csv | World Bank DataBank | mobile penetration |
+
+reviews.csv ends May 2017 — foldables launched 2019, so it contains zero foldable
+reviews. All foldable NLP work uses reviews_global.csv; reviews.csv is background only.
 
 Verification gate: records >1,000 for all datasets; features >=25 for specs.csv only.
 

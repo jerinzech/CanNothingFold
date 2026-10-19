@@ -16,15 +16,20 @@ market, backed by five AI engines and a measured margin KPI.
 - **Grading bar to hit**: three core engines used in depth + the two optional Python
   extensions (RL, RNN/LSTM) + a convincing business story with KPIs.
 
-## 2. Repository structure to create
+## 2. Repository structure
+
+The repository root (`CanNothingFold/`) IS the project folder — no nested `project/`
+level:
 
 ```
-project/
+CanNothingFold/            # repo root = project root
   README.md                  # run order, dataset sources, requirements
   requirements.txt
+  .gitignore                 # excludes .DS_Store, .venv, data/raw, data/processed
+  build_plan.md              # this document
   data/
-    raw/                     # downloaded datasets, untouched
-    processed/               # cleaned, joined, feature-engineered outputs
+    raw/                     # downloaded datasets, untouched (git-ignored)
+    processed/               # cleaned, joined, feature-engineered outputs (git-ignored)
     enrichment/              # market stats, enrichment joins
   notebooks/
     01_data_prep.ipynb
@@ -58,6 +63,19 @@ writing notebook 01 around it — pin exact download URLs in the README; note th
 | sales_india.csv | Smartphone Sales Dataset — India | Kaggle: yaminh/smartphone-sale-dataset |
 | enrichment_market.csv | Foldable statistics 2026 (shipments, share, revenue multiples) | axis-intelligence.com foldable-phone-statistics (compile key figures into CSV, cite source) |
 | enrichment_wb.csv | Mobile penetration, World Development Indicators | World Bank DataBank |
+
+**Verified dataset facts (checked 2026-10-19, before building notebook 01):**
+- All six Kaggle slugs resolve. `specs.csv` is 15,000 rows x 25 columns (file ships as
+  `smartphones.csv`; price column spans 1–15000 in a near-uniform distribution — treat
+  currency as an assumption to verify on first load).
+- `reviews.csv` ships as 7 files (`phone_user_review_file_1..7.csv`, ~1.4M reviews total).
+  **CRITICAL: its latest review is May 2017.** The first foldable shipped in 2019, so this
+  dataset contains ZERO foldable reviews by construction.
+- Consequence for the engines: **reviews_global.csv is the PRIMARY foldable review corpus**
+  (50k reviews, 8 countries, includes Galaxy Z Flip and Razr 40). reviews.csv serves only
+  as a general market-sentiment background corpus and for the record-count gate. Notebook
+  06's monthly sentiment series must be built from reviews_global.csv.
+- `sales_india.csv` ships as `Sales.csv` (~3,114 rows, prices in INR).
 
 **Verification gate (graded requirement — do not skip):** after loading each dataset,
 assert and print record count and feature count, then apply two separate thresholds:
@@ -113,8 +131,10 @@ Task B — **Segmentation**: k-means on sales_india.csv features (price, rating,
 
 ## 6. Engine 3 — NLP (notebook 04)
 
-- Filter reviews.csv (and reviews_global.csv if needed) to foldable models using the
-  `is_foldable` mapping. Print and record the corpus size honestly.
+- Filter the foldable review corpus from **reviews_global.csv (primary — it is the only
+  dataset that can contain foldables; reviews.csv ends May 2017)**, using the
+  `is_foldable` mapping. Use reviews.csv only as a general background corpus if needed.
+  Print and record the corpus size honestly.
 - Pipeline: lowercasing, stopword removal, lemmatization (nltk or spaCy), tokenization.
 - **Sentiment**: VADER or a fine-tuned-off-the-shelf sentiment model; sentiment distribution
   overall, by model, by price tier, by country. Save `results/sentiment_summary.csv`.
@@ -152,7 +172,8 @@ Build a dynamic pricing agent. Simulated environment (state this limitation hone
 ## 8. Engine 5 — RNN / LSTM (notebook 06)
 
 - Build a monthly time series of foldable review sentiment (and review volume) from the NLP
-  notebook's per-review sentiment outputs aggregated by month.
+  notebook's per-review sentiment outputs aggregated by month. **Source: reviews_global.csv
+  only** (reviews.csv predates foldables, so it cannot contribute to this series).
 - Train an LSTM (Keras) to forecast sentiment 3 months ahead; compare with a naive
   last-value baseline (report RMSE/MAE both).
 - Business output: sentiment trajectory at a hypothetical Nothing launch quarter →
