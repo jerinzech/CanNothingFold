@@ -1,0 +1,124 @@
+store_host,country,currency,model,price_local,price_local_max_variant,variants_seen,price_type,source,source_url,collected_at
+au.nothing.tech,Australia,AUD,CMF Phone 2 Pro,449.0,449.0,1,official_current,Nothing official store,https://au.nothing.tech/collections/phones,2026-10-29
+au.nothing.tech,Australia,AUD,Phone (2a),519.0,599.0,2,official_current,Nothing official store,https://au.nothing.tech/collections/phones,2026-10-29
+au.nothing.tech,Australia,AUD,Phone (3),1509.0,1509.0,1,official_current,Nothing official store,https://au.nothing.tech/collections/phones,2026-10-29
+au.nothing.tech,Australia,AUD,Phone (3a),599.0,599.0,1,official_current,Nothing official store,https://au.nothing.tech/collections/phones,2026-10-29
+au.nothing.tech,Australia,AUD,Phone (3a) Lite,439.0,439.0,1,official_current,Nothing official store,https://au.nothing.tech/collections/phones,2026-10-29
+au.nothing.tech,Australia,AUD,Phone (3a) Pro,849.0,849.0,1,official_current,Nothing official store,https://au.nothing.tech/collections/phones,2026-10-29
+au.nothing.tech,Australia,AUD,Phone (4a),649.0,649.0,1,official_current,Nothing official store,https://au.nothing.tech/collections/phones,2026-10-29
+au.nothing.tech,Australia,AUD,Phone (4a) Pro,949.0,949.0,1,official_current,Nothing official store,https://au.nothing.tech/collections/phones,2026-10-29
+au.nothing.tech,Australia,AUD,Phone (4b),629.0,629.0,1,official_current,Nothing official store,https://au.nothing.tech/collections/phones,2026-10-29
+at.nothing.tech,Austria,EUR,CMF Phone 2 Pro,249.0,249.0,1,official_current,Nothing official store,https://at.nothing.tech/collections/phones,2026-10-29
+at.nothing.tech,Austria,EUR,Phone (2a) Plus,399.0,429.0,2,official_current,Nothing official store,https://at.nothing.tech/collections/phones,2026-10-29
+at.nothing.tech,Austria,EUR,Phone (3),799.0,799.0,1,official_current,Nothing official store,https://at.nothing.tech/collections/phones,2026-10-29
+at.nothing.tech,Austria,EUR,Phone (3a),329.0,329.0,1,official_current,Nothing official store,https://at.nothing.tech/collections/phones,2026-10-29
+at.nothing.tech,Austria,EUR,Phone (3a) Lite,249.0,249.0,1,official_current,Nothing official store,https://at.nothing.tech/collections/phones,2026-10-29
+at.nothing.tech,Austria,EUR,Phone (3a) Pro,459.0,459.0,1,official_current,Nothing official store,https://at.nothing.tech/collections/phones,2026-10-29
+at.nothing.tech,Austria,EUR,Phone (4a),399.0,399.0,1,official_current,Nothing official store,https://at.nothing.tech/collections/phones,2026-10-29
+at.nothing.tech,Austria,EUR,Phone (4a) Pro,549.0,549.0,1,official_current,Nothing official store,https://at.nothing.tech/collections/phones,2026-10-29
+at.nothing.tech,Austria,EUR,Phone (4b),329.0,329.0,1,official_current,Nothing official store,https://at.nothing.tech/collections/phones,2026-10-29
+be.nothing.tech,Belgium,EUR,CMF Phone 2 Pro,249.0,249.0,1,official_current,Nothing official store,https://be.nothing.tech/collections/phones,2026-10-29
+be.nothing.tech,Belgium,EUR,Phone (2a) Plus,419.0,419.0,1,official_current,Nothing official store,https://be.nothing.tech/collections/phones,2026-10-29
+be.nothing.tech,Belgium,EUR,Phone (3),849.0,849.0,1,official_current,Nothing official store,https://be.nothing.tech/collections/phones,2026-10-29
+be.nothing.tech,Belgium,EUR,Phone (3a),299.0,349.0,2,official_current,Nothing official store,https://be.nothing.tech/collections/phones,2026-10-29
+be.nothing.tech,Belgium,EUR,Phone (3a) Lite,249.0,249.0,1,official_current,Nothing official store,https://be.nothing.tech/collections/phones,2026-10-29
+be.nothing.tech,Belgium,EUR,Phone (3a) Pro,399.0,479.0,2,official_current,Nothing official store,https://be.nothing.tech/collections/phones,2026-10-29
+be.nothing.tech,Belgium,EUR,Phone (4a),399.0,399.0,1,official_current,Nothing official store,https://be.nothing.tech/collections/phones,2026-10-29
+be.nothing.tech,Belgium,EUR,Phone (4a) Pro,549.0,549.0,1,official_current,Nothing official store,https://be.nothing.tech/collections/phones,2026-10-29
+be.nothing.tech,Belgium,EUR,Phone (4b),329.0,329.0,1,official_current,Nothing official store,https://be.nothing.tech/collections/phones,2026-10-29
+fi.nothing.tech,Finland,EUR,CMF Phone 2 Pro,259.0,259.0,1,official_current,Nothing official store,https://fi.nothing.tech/collections/phones,2026-10-29
+fi.nothing.tech,Finland,EUR,Phone (2a) Plus,419.0,419.0,1,official_current,Nothing official store,https://fi.nothing.tech/collections/phones,2026-10-29
+fi.nothing.tech,Finland,EUR,Phone (3),879.0,879.0,1,official_current,Nothing official store,https://fi.nothing.tech/collections/phones,2026-10-29
+fi.nothing.tech,Finland,EUR,Phone (3a),349.0,349.0,1,official_current,Nothing official store,https://fi.nothing.tech/collections/phones,2026-10-29
+fi.nothing.tech,Finland,EUR,Phone (3a) Lite,299.0,299.0,1,official_current,Nothing official store,https://fi.nothing.tech/collections/phones,2026-10-29
+fi.nothing.tech,Finland,EUR,Phone (3a) Pro,489.0,489.0,1,official_current,Nothing official store,https://fi.nothing.tech/collections/phones,2026-10-29
+fi.nothing.tech,Finland,EUR,Phone (4a),399.0,399.0,1,official_current,Nothing official store,https://fi.nothing.tech/collections/phones,2026-10-29
+fi.nothing.tech,Finland,EUR,Phone (4a) Pro,549.0,549.0,1,official_current,Nothing official store,https://fi.nothing.tech/collections/phones,2026-10-29
+fi.nothing.tech,Finland,EUR,Phone (4b),329.0,329.0,1,official_current,Nothing official store,https://fi.nothing.tech/collections/phones,2026-10-29
+fr.nothing.tech,France,EUR,CMF Phone 2 Pro,259.0,259.0,1,official_current,Nothing official store,https://fr.nothing.tech/collections/phones,2026-10-29
+fr.nothing.tech,France,EUR,Phone (2a) Plus,399.0,449.0,2,official_current,Nothing official store,https://fr.nothing.tech/collections/phones,2026-10-29
+fr.nothing.tech,France,EUR,Phone (3),849.0,849.0,1,official_current,Nothing official store,https://fr.nothing.tech/collections/phones,2026-10-29
+fr.nothing.tech,France,EUR,Phone (3a),299.0,349.0,2,official_current,Nothing official store,https://fr.nothing.tech/collections/phones,2026-10-29
+fr.nothing.tech,France,EUR,Phone (3a) Lite,249.0,249.0,1,official_current,Nothing official store,https://fr.nothing.tech/collections/phones,2026-10-29
+fr.nothing.tech,France,EUR,Phone (3a) Pro,399.0,479.0,2,official_current,Nothing official store,https://fr.nothing.tech/collections/phones,2026-10-29
+fr.nothing.tech,France,EUR,Phone (4a),399.0,399.0,1,official_current,Nothing official store,https://fr.nothing.tech/collections/phones,2026-10-29
+fr.nothing.tech,France,EUR,Phone (4a) Pro,549.0,549.0,1,official_current,Nothing official store,https://fr.nothing.tech/collections/phones,2026-10-29
+fr.nothing.tech,France,EUR,Phone (4b),329.0,329.0,1,official_current,Nothing official store,https://fr.nothing.tech/collections/phones,2026-10-29
+de.nothing.tech,Germany,EUR,CMF Phone 2 Pro,249.0,249.0,1,official_current,Nothing official store,https://de.nothing.tech/collections/phones,2026-10-29
+de.nothing.tech,Germany,EUR,Phone (2a) Plus,379.0,429.0,2,official_current,Nothing official store,https://de.nothing.tech/collections/phones,2026-10-29
+de.nothing.tech,Germany,EUR,Phone (3),799.0,799.0,1,official_current,Nothing official store,https://de.nothing.tech/collections/phones,2026-10-29
+de.nothing.tech,Germany,EUR,Phone (3a),279.0,329.0,2,official_current,Nothing official store,https://de.nothing.tech/collections/phones,2026-10-29
+de.nothing.tech,Germany,EUR,Phone (3a) Lite,249.0,249.0,1,official_current,Nothing official store,https://de.nothing.tech/collections/phones,2026-10-29
+de.nothing.tech,Germany,EUR,Phone (3a) Pro,379.0,459.0,2,official_current,Nothing official store,https://de.nothing.tech/collections/phones,2026-10-29
+de.nothing.tech,Germany,EUR,Phone (4a),379.0,379.0,1,official_current,Nothing official store,https://de.nothing.tech/collections/phones,2026-10-29
+de.nothing.tech,Germany,EUR,Phone (4a) Pro,529.0,529.0,1,official_current,Nothing official store,https://de.nothing.tech/collections/phones,2026-10-29
+de.nothing.tech,Germany,EUR,Phone (4b),329.0,329.0,1,official_current,Nothing official store,https://de.nothing.tech/collections/phones,2026-10-29
+ie.nothing.tech,Ireland,EUR,CMF Phone 2 Pro,249.0,249.0,1,official_current,Nothing official store,https://ie.nothing.tech/collections/phones,2026-10-29
+ie.nothing.tech,Ireland,EUR,Phone (2a) Plus,419.0,419.0,1,official_current,Nothing official store,https://ie.nothing.tech/collections/phones,2026-10-29
+ie.nothing.tech,Ireland,EUR,Phone (3),849.0,849.0,1,official_current,Nothing official store,https://ie.nothing.tech/collections/phones,2026-10-29
+ie.nothing.tech,Ireland,EUR,Phone (3a),299.0,349.0,2,official_current,Nothing official store,https://ie.nothing.tech/collections/phones,2026-10-29
+ie.nothing.tech,Ireland,EUR,Phone (3a) Lite,249.0,249.0,1,official_current,Nothing official store,https://ie.nothing.tech/collections/phones,2026-10-29
+ie.nothing.tech,Ireland,EUR,Phone (3a) Pro,399.0,479.0,2,official_current,Nothing official store,https://ie.nothing.tech/collections/phones,2026-10-29
+ie.nothing.tech,Ireland,EUR,Phone (4a),399.0,399.0,1,official_current,Nothing official store,https://ie.nothing.tech/collections/phones,2026-10-29
+ie.nothing.tech,Ireland,EUR,Phone (4a) Pro,549.0,549.0,1,official_current,Nothing official store,https://ie.nothing.tech/collections/phones,2026-10-29
+ie.nothing.tech,Ireland,EUR,Phone (4b),329.0,329.0,1,official_current,Nothing official store,https://ie.nothing.tech/collections/phones,2026-10-29
+it.nothing.tech,Italy,EUR,CMF Phone 2 Pro,259.0,259.0,1,official_current,Nothing official store,https://it.nothing.tech/collections/phones,2026-10-29
+it.nothing.tech,Italy,EUR,Phone (2a) Plus,399.0,449.0,2,official_current,Nothing official store,https://it.nothing.tech/collections/phones,2026-10-29
+it.nothing.tech,Italy,EUR,Phone (3),849.0,849.0,1,official_current,Nothing official store,https://it.nothing.tech/collections/phones,2026-10-29
+it.nothing.tech,Italy,EUR,Phone (3a),299.0,349.0,2,official_current,Nothing official store,https://it.nothing.tech/collections/phones,2026-10-29
+it.nothing.tech,Italy,EUR,Phone (3a) Lite,249.0,249.0,1,official_current,Nothing official store,https://it.nothing.tech/collections/phones,2026-10-29
+it.nothing.tech,Italy,EUR,Phone (3a) Pro,399.0,479.0,2,official_current,Nothing official store,https://it.nothing.tech/collections/phones,2026-10-29
+it.nothing.tech,Italy,EUR,Phone (4a),399.0,399.0,1,official_current,Nothing official store,https://it.nothing.tech/collections/phones,2026-10-29
+it.nothing.tech,Italy,EUR,Phone (4a) Pro,549.0,549.0,1,official_current,Nothing official store,https://it.nothing.tech/collections/phones,2026-10-29
+it.nothing.tech,Italy,EUR,Phone (4b),329.0,329.0,1,official_current,Nothing official store,https://it.nothing.tech/collections/phones,2026-10-29
+jp.nothing.tech,Japan,JPY,CMF Phone 1,34800.0,44800.0,2,official_current,Nothing official store,https://jp.nothing.tech/collections/phones,2026-10-29
+jp.nothing.tech,Japan,JPY,CMF Phone 2 Pro,47800.0,47800.0,1,official_current,Nothing official store,https://jp.nothing.tech/collections/phones,2026-10-29
+jp.nothing.tech,Japan,JPY,Phone (2a),55800.0,55800.0,1,official_current,Nothing official store,https://jp.nothing.tech/collections/phones,2026-10-29
+jp.nothing.tech,Japan,JPY,Phone (3),124800.0,124800.0,1,official_current,Nothing official store,https://jp.nothing.tech/collections/phones,2026-10-29
+jp.nothing.tech,Japan,JPY,Phone (3a),47800.0,47800.0,1,official_current,Nothing official store,https://jp.nothing.tech/collections/phones,2026-10-29
+jp.nothing.tech,Japan,JPY,Phone (3a) Lite,42800.0,42800.0,1,official_current,Nothing official store,https://jp.nothing.tech/collections/phones,2026-10-29
+jp.nothing.tech,Japan,JPY,Phone (4a),58800.0,58800.0,1,official_current,Nothing official store,https://jp.nothing.tech/collections/phones,2026-10-29
+jp.nothing.tech,Japan,JPY,Phone (4a) Pro,79800.0,79800.0,1,official_current,Nothing official store,https://jp.nothing.tech/collections/phones,2026-10-29
+jp.nothing.tech,Japan,JPY,Phone (4b),59800.0,59800.0,1,official_current,Nothing official store,https://jp.nothing.tech/collections/phones,2026-10-29
+mx.nothing.tech,Mexico,MXN,CMF Phone 2 Pro,5999.0,5999.0,1,official_current,Nothing official store,https://mx.nothing.tech/collections/phones,2026-10-29
+mx.nothing.tech,Mexico,MXN,Phone (3),10999.0,16499.0,2,official_current,Nothing official store,https://mx.nothing.tech/collections/phones,2026-10-29
+mx.nothing.tech,Mexico,MXN,Phone (3a),7799.0,7799.0,1,official_current,Nothing official store,https://mx.nothing.tech/collections/phones,2026-10-29
+mx.nothing.tech,Mexico,MXN,Phone (3a) Lite,4399.0,5399.0,2,official_current,Nothing official store,https://mx.nothing.tech/collections/phones,2026-10-29
+mx.nothing.tech,Mexico,MXN,Phone (3a) Pro,10799.0,10799.0,1,official_current,Nothing official store,https://mx.nothing.tech/collections/phones,2026-10-29
+mx.nothing.tech,Mexico,MXN,Phone (4a),8999.0,8999.0,1,official_current,Nothing official store,https://mx.nothing.tech/collections/phones,2026-10-29
+mx.nothing.tech,Mexico,MXN,Phone (4a) Pro,13499.0,13499.0,1,official_current,Nothing official store,https://mx.nothing.tech/collections/phones,2026-10-29
+mx.nothing.tech,Mexico,MXN,Phone (4b),7999.0,7999.0,1,official_current,Nothing official store,https://mx.nothing.tech/collections/phones,2026-10-29
+nl.nothing.tech,Netherlands,EUR,CMF Phone 2 Pro,259.0,259.0,1,official_current,Nothing official store,https://nl.nothing.tech/collections/phones,2026-10-29
+nl.nothing.tech,Netherlands,EUR,Phone (2a) Plus,399.0,429.0,2,official_current,Nothing official store,https://nl.nothing.tech/collections/phones,2026-10-29
+nl.nothing.tech,Netherlands,EUR,Phone (3),849.0,849.0,1,official_current,Nothing official store,https://nl.nothing.tech/collections/phones,2026-10-29
+nl.nothing.tech,Netherlands,EUR,Phone (3a),299.0,349.0,2,official_current,Nothing official store,https://nl.nothing.tech/collections/phones,2026-10-29
+nl.nothing.tech,Netherlands,EUR,Phone (3a) Lite,249.0,249.0,1,official_current,Nothing official store,https://nl.nothing.tech/collections/phones,2026-10-29
+nl.nothing.tech,Netherlands,EUR,Phone (3a) Pro,399.0,479.0,2,official_current,Nothing official store,https://nl.nothing.tech/collections/phones,2026-10-29
+nl.nothing.tech,Netherlands,EUR,Phone (4a),399.0,399.0,1,official_current,Nothing official store,https://nl.nothing.tech/collections/phones,2026-10-29
+nl.nothing.tech,Netherlands,EUR,Phone (4a) Pro,549.0,549.0,1,official_current,Nothing official store,https://nl.nothing.tech/collections/phones,2026-10-29
+nl.nothing.tech,Netherlands,EUR,Phone (4b),329.0,329.0,1,official_current,Nothing official store,https://nl.nothing.tech/collections/phones,2026-10-29
+pt.nothing.tech,Portugal,EUR,CMF Phone 2 Pro,249.0,249.0,1,official_current,Nothing official store,https://pt.nothing.tech/collections/phones,2026-10-29
+pt.nothing.tech,Portugal,EUR,Phone (2a) Plus,419.0,419.0,1,official_current,Nothing official store,https://pt.nothing.tech/collections/phones,2026-10-29
+pt.nothing.tech,Portugal,EUR,Phone (3),849.0,849.0,1,official_current,Nothing official store,https://pt.nothing.tech/collections/phones,2026-10-29
+pt.nothing.tech,Portugal,EUR,Phone (3a),299.0,349.0,2,official_current,Nothing official store,https://pt.nothing.tech/collections/phones,2026-10-29
+pt.nothing.tech,Portugal,EUR,Phone (3a) Lite,259.0,259.0,1,official_current,Nothing official store,https://pt.nothing.tech/collections/phones,2026-10-29
+pt.nothing.tech,Portugal,EUR,Phone (3a) Pro,399.0,479.0,2,official_current,Nothing official store,https://pt.nothing.tech/collections/phones,2026-10-29
+pt.nothing.tech,Portugal,EUR,Phone (4a),399.0,399.0,1,official_current,Nothing official store,https://pt.nothing.tech/collections/phones,2026-10-29
+pt.nothing.tech,Portugal,EUR,Phone (4a) Pro,549.0,549.0,1,official_current,Nothing official store,https://pt.nothing.tech/collections/phones,2026-10-29
+pt.nothing.tech,Portugal,EUR,Phone (4b),329.0,329.0,1,official_current,Nothing official store,https://pt.nothing.tech/collections/phones,2026-10-29
+es.nothing.tech,Spain,EUR,CMF Phone 2 Pro,249.0,249.0,1,official_current,Nothing official store,https://es.nothing.tech/collections/phones,2026-10-29
+es.nothing.tech,Spain,EUR,Phone (2a) Plus,379.0,429.0,2,official_current,Nothing official store,https://es.nothing.tech/collections/phones,2026-10-29
+es.nothing.tech,Spain,EUR,Phone (3),799.0,799.0,1,official_current,Nothing official store,https://es.nothing.tech/collections/phones,2026-10-29
+es.nothing.tech,Spain,EUR,Phone (3a),279.0,329.0,2,official_current,Nothing official store,https://es.nothing.tech/collections/phones,2026-10-29
+es.nothing.tech,Spain,EUR,Phone (3a) Lite,249.0,249.0,1,official_current,Nothing official store,https://es.nothing.tech/collections/phones,2026-10-29
+es.nothing.tech,Spain,EUR,Phone (3a) Pro,379.0,459.0,2,official_current,Nothing official store,https://es.nothing.tech/collections/phones,2026-10-29
+es.nothing.tech,Spain,EUR,Phone (4a),379.0,379.0,1,official_current,Nothing official store,https://es.nothing.tech/collections/phones,2026-10-29
+es.nothing.tech,Spain,EUR,Phone (4a) Pro,529.0,529.0,1,official_current,Nothing official store,https://es.nothing.tech/collections/phones,2026-10-29
+es.nothing.tech,Spain,EUR,Phone (4b),329.0,329.0,1,official_current,Nothing official store,https://es.nothing.tech/collections/phones,2026-10-29
+nothing.tech,United Kingdom,GBP,Phone (3),699.0,699.0,1,official_current,Nothing official store,https://nothing.tech/collections/phones,2026-10-29
+nothing.tech,United Kingdom,GBP,Phone (3a) Lite,249.0,249.0,1,official_current,Nothing official store,https://nothing.tech/collections/phones,2026-10-29
+nothing.tech,United Kingdom,GBP,Phone (4a),379.0,379.0,1,official_current,Nothing official store,https://nothing.tech/collections/phones,2026-10-29
+nothing.tech,United Kingdom,GBP,Phone (4a) Pro,519.0,519.0,1,official_current,Nothing official store,https://nothing.tech/collections/phones,2026-10-29
+nothing.tech,United Kingdom,GBP,Phone (4b),299.0,299.0,1,official_current,Nothing official store,https://nothing.tech/collections/phones,2026-10-29
+us.nothing.tech,United States,USD,Phone (3),699.0,699.0,1,official_current,Nothing official store,https://us.nothing.tech/collections/phones,2026-10-29
+us.nothing.tech,United States,USD,Phone (4a) Pro,499.0,499.0,1,official_current,Nothing official store,https://us.nothing.tech/collections/phones,2026-10-29

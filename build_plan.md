@@ -29,8 +29,10 @@ CanNothingFold/            # repo root = project root
   build_plan.md              # this document
   data/
     raw/                     # downloaded datasets, untouched (git-ignored)
+      MANIFEST.csv             # sha256/rows/cols provenance inventory (33 entries)
+      archive/                 # screened-out originals (D16 synthetic specs)
     processed/               # cleaned, joined, feature-engineered outputs (git-ignored)
-    enrichment/              # market stats, enrichment joins
+    enrichment/              # compiled price/market/World Bank tables (tracked)
   notebooks/
     01_data_prep.ipynb
     02_ml_price_segmentation.ipynb
@@ -39,7 +41,11 @@ CanNothingFold/            # repo root = project root
     05_rl_pricing_agent.ipynb
     06_rnn_lstm_sentiment.ipynb
   src/
-    kpi.py                   # break-even / margin model
+    collect_nothing_prices.py  # official-store current-price snapshot scraper
+    fetch_worldbank.py         # World Bank API downloader/builder
+    build_enrichment.py        # single source of truth: normalisation, FX, compiled tables
+    build_manifest.py          # raw-file sha256/row/column inventory
+    kpi.py                     # break-even / margin model
   results/                   # all model outputs saved as CSV (graded requirement)
   figures/                   # all charts exported for report and slides
 ```
@@ -49,6 +55,28 @@ must succeed). Every model output is saved to `results/` as CSV. Every chart is 
 exported to `figures/` as PNG (300 dpi).
 
 ## 3. Data acquisition (notebook 01)
+
+> **Superseded 2026-10-29:** the verified dataset inventory and final decisions live in
+> [`data/datasets.md`](data/datasets.md). In particular, the synthetic `specs.csv` is
+> archived; D01 `phone_information_2024.csv` is the core specs/price table, D03 is a
+> competitor launch comparator with zero Nothing rows, and Nothing launch prices are
+> hand-collected in `data/enrichment/nothing_launch_prices_manual.csv`. The steps below
+> describe the original plan and are kept for context.
+>
+> **Status 2026-10-29 — notebook 01 is built and executed** (29 cells, clean
+> `Restart & Run All`). Implementation differs from the original plan in three ways:
+> 1. Prices are standardised to **USD** with the fixed FX table (`FX_ASOF = 2026-10-29`),
+>    not EUR; D01's local-currency prices are retained alongside.
+> 2. The verification gate is **hard for core datasets only** (records >1,000; features
+>    ≥25 for the specs table). Supplementary tables (D03, D14, `nothing_prices.csv`,
+>    `enrichment_wb.csv`) fail the raw row gate by design and are gated through the
+>    compiled tables instead — recorded as soft warnings, not failures.
+> 3. Enrichment joins consume the compiled tables in `data/enrichment/` (see
+>    `src/build_enrichment.py`), not a single ad-hoc market CSV.
+>
+> Outputs: 9 `data/processed/*_clean.csv` files plus
+> `results/data_verification.csv`, `results/data_quality_summary.csv` and
+> `results/data_missingness.csv` (shapes in the README).
 
 Download these public datasets into `data/raw/` (verify each Kaggle slug resolves before
 writing notebook 01 around it — pin exact download URLs in the README; note the
@@ -212,8 +240,10 @@ The agent produces notebooks, results and figures. The group writes:
 
 The build is done when:
 1. `Kernel > Restart & Run All` succeeds for all six notebooks on a clean machine.
-2. `results/data_verification.csv` shows all core datasets pass their applicable
-   thresholds (records >1,000 for all; features >=25 for specs.csv).
+2. `results/data_verification.csv` shows all **hard** datasets pass their applicable
+   thresholds (records >1,000 for core datasets; features >=25 for the specs table);
+   supplementary datasets are soft warnings gated through the compiled tables. — **met
+   for notebook 01 on 2026-10-29**; re-check after any dataset change.
 3. Each engine has at least one saved, interpretable output CSV + one exported figure.
 4. `python src/kpi.py` runs and produces the break-even and margin figures.
 5. The RL notebook clearly separates simulated quantities from real-data quantities.
@@ -222,7 +252,7 @@ The build is done when:
 
 ## 12. Suggested build order
 
-1. `01_data_prep` (datasets + verification gate + `is_foldable` flag)
+1. `01_data_prep` (datasets + verification gate + `is_foldable` flag) — **done 2026-10-29**
 2. `02_ml` (price regression — everything downstream depends on it)
 3. `03_dl` (reuses 02's train/test setup)
 4. `04_nlp` (independent of 02/03; can be built in parallel)

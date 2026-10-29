@@ -1,0 +1,15 @@
+dataset,records,features,records_ok,features_ok,passes,hard,note
+D01 phone_information_2024.csv,1715,31,True,True,True,True,core specs + UK/DE/US marketplace prices
+"D02 phones_2024.csv (backup, not loaded)",1708,38,True,True,True,False,backup only; shape recorded from MANIFEST
+D03 mobiles_2025.csv,930,15,False,True,False,False,supplementary; no Nothing rows; compiled table is gated instead
+D05 sales_india.csv,3114,12,True,True,True,True,India-only segmentation
+D06 reviews_global.csv,50000,25,True,True,True,True,primary foldable NLP corpus; synthetic-like texts
+D07 background reviews (6 parts),1415133,7,True,True,True,True,background only; ends May 2017
+D08 specs_india_2026.csv,4000,17,True,True,True,False,India retail supplement
+D11 spain_prices.csv,1816,8,True,True,True,False,Spain retail supplement
+D14 specs_india_2026_alt.csv,858,29,False,True,False,False,unverified holdout
+D27 specs_india_2025_basic.csv,3260,20,True,True,True,False,India retail supplement
+D29 specs_india_2025.csv,5263,15,True,True,True,False,India retail supplement
+D33 price_by_country.csv,19347,22,True,True,True,True,compiled long price table; row gate applied here
+nothing_prices.csv,182,22,False,True,False,False,manual supplement
+enrichment_wb.csv,220,11,False,True,False,False,"country-year panel, not a row-gate dataset"

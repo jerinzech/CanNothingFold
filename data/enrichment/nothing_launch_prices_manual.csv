@@ -1,0 +1,25 @@
+model,country,currency,local_price,source,source_url,collected_at,notes
+Phone (1),United Kingdom,GBP,399,The Verge,https://www.theverge.com/2022/7/12/23203455/nothing-phone-1-price-release-date-specs-features,2022-07-12,Launch price 8/128GB
+Phone (1),India,INR,32999,Deccan Herald,https://www.deccanherald.com/technology/nothing-phone-1-now-in-india-price-starts-from-rs-31999-1126079.html,2022-07-12,Launch price 8/128GB
+Phone (2),India,INR,44999,Times of India,https://timesofindia.indiatimes.com/gadgets-news/nothing-phone-2-launched-in-india-all-the-details/photostory/101676020.cms,2023-07-11,Launch price 8/128GB
+Phone (2a),United States,USD,349,Android Central,https://www.androidcentral.com/phones/nothing-phone-2a-first-impressions,2024-03-05,Launch price 8/128GB
+Phone (2a),United Kingdom,GBP,319,PR Newswire,https://www.prnewswire.com/in/news-releases/nothing-introduces-phone-2a-302079831.html,2024-03-05,Launch price 8/128GB
+Phone (2a),Germany,EUR,329,PR Newswire,https://www.prnewswire.com/in/news-releases/nothing-introduces-phone-2a-302079831.html,2024-03-05,Launch price 8/128GB
+Phone (2a),India,INR,23999,PR Newswire,https://www.prnewswire.com/in/news-releases/nothing-introduces-phone-2a-302079831.html,2024-03-05,Launch price 8/128GB
+Phone (2a) Plus,United States,USD,399,Pocket-lint,https://www.pocket-lint.com/nothing-phone-2a-plus-now-official/,2024-07-31,Launch price 12/256GB
+Phone (2a) Plus,United Kingdom,GBP,399,Android Police,https://www.androidpolice.com/nothing-phone-2a-plus-review/,2024-07-31,Launch price 12/256GB
+Phone (2a) Plus,India,INR,27999,Times of India,https://timesofindia.indiatimes.com/technology/mobiles-tabs/nothing-phone-2a-plus-with-50mp-front-camera-launched-price-specs-and-more/articleshow/112168412.cms,2024-07-31,Launch price 8/256GB
+CMF Phone 1,United States,USD,199,Android Central,https://www.androidcentral.com/phones/the-cmf-phone-1-is-a-customizable-budget-phone-starting-at-dollar199,2024-07-08,Launch price 8/128GB
+CMF Phone 1,United Kingdom,GBP,209,9to5Google,https://9to5google.com/2024/07/08/nothing-cmf-phone-1-review/,2024-07-08,Launch price 8/128GB
+CMF Phone 1,Germany,EUR,239,9to5Google,https://9to5google.com/2024/07/08/nothing-cmf-phone-1-review/,2024-07-08,Launch price 8/128GB
+CMF Phone 1,India,INR,15999,The Hindu,https://www.thehindu.com/sci-tech/technology/gadgets/nothings-cmf-launches-its-first-smartphone-cmf-phone-1-with-50mp-lens-in-india/article68380808.ece,2024-07-08,Launch price 6/128GB
+Phone (3),United States,USD,799,Wikipedia,https://en.wikipedia.org/wiki/Nothing_Phone_3,2025-07-01,Launch price 12/256GB
+Phone (3),United Kingdom,GBP,799,Wikipedia,https://en.wikipedia.org/wiki/Nothing_Phone_3,2025-07-01,Launch price 12/256GB
+Phone (3),India,INR,79999,MobiGyaan,https://www.mobigyaan.com/nothing-phone-3-india,2025-07-01,Launch price 12/256GB
+Phone (3a),United States,USD,379,ExtremeTech,https://www.extremetech.com/mobile/nothing-launches-phone-3a-and-3a-pro-in-us-priced-at-379-and-459,2025-03-04,Launch price 12/256GB
+Phone (3a),United Kingdom,GBP,329,Android Central,https://www.androidcentral.com/phones/nothing-phone-3a-and-3a-pro-review,2025-03-04,Launch price 8/128GB
+Phone (3a),Germany,EUR,329,Android Central,https://www.androidcentral.com/phones/nothing-phone-3a-and-3a-pro-review,2025-03-04,Launch price 8/128GB
+Phone (3a),India,INR,24999,Gadgets360,https://www.gadgets360.com/nothing-phone-3a-price-in-india-131014,2025-03-04,Launch price 8/128GB
+Phone (3a) Pro,United States,USD,459,ExtremeTech,https://www.extremetech.com/mobile/nothing-launches-phone-3a-and-3a-pro-in-us-priced-at-379-and-459,2025-03-04,Launch price 12/256GB
+Phone (3a) Pro,Germany,EUR,459,Nothing Community,https://nothing.community/d/27793-phone-3a-and-3a-pro-are-here,2025-03-04,Launch price 12/256GB
+Phone (3a) Pro,India,INR,29999,LatestLY,https://www.latestly.com/socially/technology/nothing-phone-3a-nothing-phone-3a-pro-sale-is-live-check-specifications-features-and-prices-of-nothing-phone-3a-series-smartphones-6702172.html,2025-03-04,Launch price 8/128GB

@@ -1,0 +1,4 @@
+year,global_smartphone_shipments_m,global_foldable_shipments_m,foldable_share_pct,source,source_url,status,notes
+2023,1166.0,18.1,1.55,IDC (2023 smartphone shipments; foldable shipments),https://www.idc.com/promo/smartphone-market-share/,secondary,Foldable share is derived (18.1 / 1166).
+2024,1232.0,18.7,1.52,IDC (2024 smartphone shipments; foldable shipments implied by 2025 +10% guide),https://my.idc.com/getdoc.jsp?containerId=prUS54017625,derived,Foldable 2024 implied from IDC's 2025 forecast (+10% YoY).
+2025,1250.0,20.6,1.65,Omdia (smartphone shipments); IDC (foldable shipments),https://omdia.tech.informa.com/pr/2026/jan/global-smartphone-market-grew-2percent-in-2025-while-memory-headwinds-set-the-stage-for-a-challenging-2026,verified,Foldable share is derived (20.6 / 1250).

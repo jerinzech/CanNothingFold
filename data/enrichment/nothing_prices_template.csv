@@ -1,0 +1,105 @@
+model,release_year,country,status,price_type,local_price,currency,source,source_url,notes
+Phone (1),2022.0,India,have,official_launch,32999.0,INR,Deccan Herald,https://www.deccanherald.com/technology/nothing-phone-1-now-in-india-price-starts-from-rs-31999-1126079.html,
+Phone (1),2022.0,United Kingdom,have,official_launch,399.0,GBP,The Verge,https://www.theverge.com/2022/7/12/23203455/nothing-phone-1-price-release-date-specs-features,
+Phone (1),2022.0,Germany,have_current,marketplace,316.11,EUR,D01 phone_information_2024,https://www.kaggle.com/datasets/willianoliveiragibin/phone-information-2024,Launch price still missing; current/retail price shown.
+Phone (1),2022.0,United States,have_current,marketplace,439.25,USD,D01 phone_information_2024,https://www.kaggle.com/datasets/willianoliveiragibin/phone-information-2024,Launch price still missing; current/retail price shown.
+Phone (1),2022.0,United Arab Emirates,need,,,AED,,,Collect official launch price with source URL.
+Phone (1),2022.0,Japan,need,,,JPY,,,Collect official launch price with source URL.
+Phone (1),2022.0,Spain,have_current,retail,549.0,EUR,D11 Spain retail,https://www.kaggle.com/datasets/juanmerinobermejo/spain-smartphones-dataset,Launch price still missing; current/retail price shown.
+Phone (1),2022.0,France,need,,,EUR,,,Collect official launch price with source URL.
+Phone (2),2023.0,India,have,official_launch,44999.0,INR,Times of India,https://timesofindia.indiatimes.com/gadgets-news/nothing-phone-2-launched-in-india-all-the-details/photostory/101676020.cms,
+Phone (2),2023.0,United Kingdom,have_current,marketplace,535.12,GBP,D01 phone_information_2024,https://www.kaggle.com/datasets/willianoliveiragibin/phone-information-2024,Launch price still missing; current/retail price shown.
+Phone (2),2023.0,Germany,have_current,marketplace,560.845,EUR,D01 phone_information_2024,https://www.kaggle.com/datasets/willianoliveiragibin/phone-information-2024,Launch price still missing; current/retail price shown.
+Phone (2),2023.0,United States,have_current,marketplace,612.25,USD,D01 phone_information_2024,https://www.kaggle.com/datasets/willianoliveiragibin/phone-information-2024,Launch price still missing; current/retail price shown.
+Phone (2),2023.0,United Arab Emirates,need,,,AED,,,Collect official launch price with source URL.
+Phone (2),2023.0,Japan,need,,,JPY,,,Collect official launch price with source URL.
+Phone (2),2023.0,Spain,have_current,retail,749.0,EUR,D11 Spain retail,https://www.kaggle.com/datasets/juanmerinobermejo/spain-smartphones-dataset,Launch price still missing; current/retail price shown.
+Phone (2),2023.0,France,need,,,EUR,,,Collect official launch price with source URL.
+Phone (2a),2024.0,India,have,official_launch,23999.0,INR,PR Newswire,https://www.prnewswire.com/in/news-releases/nothing-introduces-phone-2a-302079831.html,
+Phone (2a),2024.0,United Kingdom,have,official_launch,319.0,GBP,PR Newswire,https://www.prnewswire.com/in/news-releases/nothing-introduces-phone-2a-302079831.html,
+Phone (2a),2024.0,Germany,have,official_launch,329.0,EUR,PR Newswire,https://www.prnewswire.com/in/news-releases/nothing-introduces-phone-2a-302079831.html,
+Phone (2a),2024.0,United States,have,official_launch,349.0,USD,Android Central,https://www.androidcentral.com/phones/nothing-phone-2a-first-impressions,
+Phone (2a),2024.0,United Arab Emirates,need,,,AED,,,Collect official launch price with source URL.
+Phone (2a),2024.0,Japan,have_current,official_current,55800.0,JPY,Nothing official store,https://jp.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (2a),2024.0,Spain,need,,,EUR,,,Collect official launch price with source URL.
+Phone (2a),2024.0,France,need,,,EUR,,,Collect official launch price with source URL.
+Phone (2a) Plus,2024.0,India,have,official_launch,27999.0,INR,Times of India,https://timesofindia.indiatimes.com/technology/mobiles-tabs/nothing-phone-2a-plus-with-50mp-front-camera-launched-price-specs-and-more/articleshow/112168412.cms,
+Phone (2a) Plus,2024.0,United Kingdom,have,official_launch,399.0,GBP,Android Police,https://www.androidpolice.com/nothing-phone-2a-plus-review/,
+Phone (2a) Plus,2024.0,Germany,have_current,official_current,379.0,EUR,Nothing official store,https://de.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (2a) Plus,2024.0,United States,have,official_launch,399.0,USD,Pocket-lint,https://www.pocket-lint.com/nothing-phone-2a-plus-now-official/,
+Phone (2a) Plus,2024.0,United Arab Emirates,need,,,AED,,,Collect official launch price with source URL.
+Phone (2a) Plus,2024.0,Japan,need,,,JPY,,,Collect official launch price with source URL.
+Phone (2a) Plus,2024.0,Spain,have_current,official_current,379.0,EUR,Nothing official store,https://es.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (2a) Plus,2024.0,France,have_current,official_current,399.0,EUR,Nothing official store,https://fr.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+CMF Phone 1,2024.0,India,have,official_launch,15999.0,INR,The Hindu,https://www.thehindu.com/sci-tech/technology/gadgets/nothings-cmf-launches-its-first-smartphone-cmf-phone-1-with-50mp-lens-in-india/article68380808.ece,
+CMF Phone 1,2024.0,United Kingdom,have,official_launch,209.0,GBP,9to5Google,https://9to5google.com/2024/07/08/nothing-cmf-phone-1-review/,
+CMF Phone 1,2024.0,Germany,have,official_launch,239.0,EUR,9to5Google,https://9to5google.com/2024/07/08/nothing-cmf-phone-1-review/,
+CMF Phone 1,2024.0,United States,have,official_launch,199.0,USD,Android Central,https://www.androidcentral.com/phones/the-cmf-phone-1-is-a-customizable-budget-phone-starting-at-dollar199,
+CMF Phone 1,2024.0,United Arab Emirates,need,,,AED,,,Collect official launch price with source URL.
+CMF Phone 1,2024.0,Japan,have_current,official_current,34800.0,JPY,Nothing official store,https://jp.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+CMF Phone 1,2024.0,Spain,need,,,EUR,,,Collect official launch price with source URL.
+CMF Phone 1,2024.0,France,need,,,EUR,,,Collect official launch price with source URL.
+Phone (3),2025.0,India,have,official_launch,79999.0,INR,MobiGyaan,https://www.mobigyaan.com/nothing-phone-3-india,
+Phone (3),2025.0,United Kingdom,have,official_launch,799.0,GBP,Wikipedia,https://en.wikipedia.org/wiki/Nothing_Phone_3,
+Phone (3),2025.0,Germany,have_current,official_current,799.0,EUR,Nothing official store,https://de.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (3),2025.0,United States,have,official_launch,799.0,USD,Wikipedia,https://en.wikipedia.org/wiki/Nothing_Phone_3,
+Phone (3),2025.0,United Arab Emirates,need,,,AED,,,Collect official launch price with source URL.
+Phone (3),2025.0,Japan,have_current,official_current,124800.0,JPY,Nothing official store,https://jp.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (3),2025.0,Spain,have_current,official_current,799.0,EUR,Nothing official store,https://es.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (3),2025.0,France,have_current,official_current,849.0,EUR,Nothing official store,https://fr.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (3a),2025.0,India,have,official_launch,24999.0,INR,Gadgets360,https://www.gadgets360.com/nothing-phone-3a-price-in-india-131014,
+Phone (3a),2025.0,United Kingdom,have,official_launch,329.0,GBP,Android Central,https://www.androidcentral.com/phones/nothing-phone-3a-and-3a-pro-review,
+Phone (3a),2025.0,Germany,have,official_launch,329.0,EUR,Android Central,https://www.androidcentral.com/phones/nothing-phone-3a-and-3a-pro-review,
+Phone (3a),2025.0,United States,have,official_launch,379.0,USD,ExtremeTech,https://www.extremetech.com/mobile/nothing-launches-phone-3a-and-3a-pro-in-us-priced-at-379-and-459,
+Phone (3a),2025.0,United Arab Emirates,need,,,AED,,,Collect official launch price with source URL.
+Phone (3a),2025.0,Japan,have_current,official_current,47800.0,JPY,Nothing official store,https://jp.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (3a),2025.0,Spain,have_current,official_current,279.0,EUR,Nothing official store,https://es.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (3a),2025.0,France,have_current,official_current,299.0,EUR,Nothing official store,https://fr.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (3a) Pro,2025.0,India,have,official_launch,29999.0,INR,LatestLY,https://www.latestly.com/socially/technology/nothing-phone-3a-nothing-phone-3a-pro-sale-is-live-check-specifications-features-and-prices-of-nothing-phone-3a-series-smartphones-6702172.html,
+Phone (3a) Pro,2025.0,United Kingdom,need,,,GBP,,,Collect official launch price with source URL.
+Phone (3a) Pro,2025.0,Germany,have,official_launch,459.0,EUR,Nothing Community,https://nothing.community/d/27793-phone-3a-and-3a-pro-are-here,
+Phone (3a) Pro,2025.0,United States,have,official_launch,459.0,USD,ExtremeTech,https://www.extremetech.com/mobile/nothing-launches-phone-3a-and-3a-pro-in-us-priced-at-379-and-459,
+Phone (3a) Pro,2025.0,United Arab Emirates,need,,,AED,,,Collect official launch price with source URL.
+Phone (3a) Pro,2025.0,Japan,need,,,JPY,,,Collect official launch price with source URL.
+Phone (3a) Pro,2025.0,Spain,have_current,official_current,379.0,EUR,Nothing official store,https://es.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (3a) Pro,2025.0,France,have_current,official_current,399.0,EUR,Nothing official store,https://fr.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (3a) Lite,2025.0,India,have_current,retail,27699.0,INR,D08 91mobiles India,https://www.kaggle.com/datasets/suresh2837/smartphone-specifications-and-prices-2026,Launch price still missing; current/retail price shown.
+Phone (3a) Lite,2025.0,United Kingdom,have_current,official_current,249.0,GBP,Nothing official store,https://nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (3a) Lite,2025.0,Germany,have_current,official_current,249.0,EUR,Nothing official store,https://de.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (3a) Lite,2025.0,United States,need,,,USD,,,Collect official launch price with source URL.
+Phone (3a) Lite,2025.0,United Arab Emirates,need,,,AED,,,Collect official launch price with source URL.
+Phone (3a) Lite,2025.0,Japan,have_current,official_current,42800.0,JPY,Nothing official store,https://jp.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (3a) Lite,2025.0,Spain,have_current,official_current,249.0,EUR,Nothing official store,https://es.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (3a) Lite,2025.0,France,have_current,official_current,249.0,EUR,Nothing official store,https://fr.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (4a),2026.0,India,have_current,retail,37600.0,INR,D08 91mobiles India,https://www.kaggle.com/datasets/suresh2837/smartphone-specifications-and-prices-2026,Launch price still missing; current/retail price shown.
+Phone (4a),2026.0,United Kingdom,have_current,official_current,379.0,GBP,Nothing official store,https://nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (4a),2026.0,Germany,have_current,official_current,379.0,EUR,Nothing official store,https://de.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (4a),2026.0,United States,need,,,USD,,,Collect official launch price with source URL.
+Phone (4a),2026.0,United Arab Emirates,need,,,AED,,,Collect official launch price with source URL.
+Phone (4a),2026.0,Japan,have_current,official_current,58800.0,JPY,Nothing official store,https://jp.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (4a),2026.0,Spain,have_current,official_current,379.0,EUR,Nothing official store,https://es.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (4a),2026.0,France,have_current,official_current,399.0,EUR,Nothing official store,https://fr.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (4a) Pro,2026.0,India,have_current,retail,51000.0,INR,D08 91mobiles India,https://www.kaggle.com/datasets/suresh2837/smartphone-specifications-and-prices-2026,Launch price still missing; current/retail price shown.
+Phone (4a) Pro,2026.0,United Kingdom,have_current,official_current,519.0,GBP,Nothing official store,https://nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (4a) Pro,2026.0,Germany,have_current,official_current,529.0,EUR,Nothing official store,https://de.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (4a) Pro,2026.0,United States,have_current,official_current,499.0,USD,Nothing official store,https://us.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (4a) Pro,2026.0,United Arab Emirates,need,,,AED,,,Collect official launch price with source URL.
+Phone (4a) Pro,2026.0,Japan,have_current,official_current,79800.0,JPY,Nothing official store,https://jp.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (4a) Pro,2026.0,Spain,have_current,official_current,529.0,EUR,Nothing official store,https://es.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (4a) Pro,2026.0,France,have_current,official_current,549.0,EUR,Nothing official store,https://fr.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (4b),2026.0,India,need,,,INR,,,Collect official launch price with source URL.
+Phone (4b),2026.0,United Kingdom,have_current,official_current,299.0,GBP,Nothing official store,https://nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (4b),2026.0,Germany,have_current,official_current,329.0,EUR,Nothing official store,https://de.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (4b),2026.0,United States,need,,,USD,,,Collect official launch price with source URL.
+Phone (4b),2026.0,United Arab Emirates,need,,,AED,,,Collect official launch price with source URL.
+Phone (4b),2026.0,Japan,have_current,official_current,59800.0,JPY,Nothing official store,https://jp.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (4b),2026.0,Spain,have_current,official_current,329.0,EUR,Nothing official store,https://es.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+Phone (4b),2026.0,France,have_current,official_current,329.0,EUR,Nothing official store,https://fr.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+CMF Phone 2 Pro,2025.0,India,have_current,retail,18999.0,INR,D08 91mobiles India,https://www.kaggle.com/datasets/suresh2837/smartphone-specifications-and-prices-2026,Launch price still missing; current/retail price shown.
+CMF Phone 2 Pro,2025.0,United Kingdom,need,,,GBP,,,Collect official launch price with source URL.
+CMF Phone 2 Pro,2025.0,Germany,have_current,official_current,249.0,EUR,Nothing official store,https://de.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+CMF Phone 2 Pro,2025.0,United States,need,,,USD,,,Collect official launch price with source URL.
+CMF Phone 2 Pro,2025.0,United Arab Emirates,need,,,AED,,,Collect official launch price with source URL.
+CMF Phone 2 Pro,2025.0,Japan,have_current,official_current,47800.0,JPY,Nothing official store,https://jp.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+CMF Phone 2 Pro,2025.0,Spain,have_current,official_current,249.0,EUR,Nothing official store,https://es.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.
+CMF Phone 2 Pro,2025.0,France,have_current,official_current,259.0,EUR,Nothing official store,https://fr.nothing.tech/collections/phones,Launch price still missing; current/retail price shown.

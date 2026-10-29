@@ -1,0 +1,19 @@
+country,year,metric,value,unit,source,source_url,status,notes
+Global,2025,smartphone_shipments_m,1250.0,million units,Omdia,https://omdia.tech.informa.com/pr/2026/jan/global-smartphone-market-grew-2percent-in-2025-while-memory-headwinds-set-the-stage-for-a-challenging-2026,verified,
+Global,2025,foldable_shipments_m,20.6,million units,IDC,https://my.idc.com/getdoc.jsp?containerId=prUS54017625,verified,
+Global,2025,foldable_share_pct,1.65,percent,Derived from Omdia + IDC,,derived,20.6 / 1250
+Global,2025,nothing_shipments_m,3.0,million units,Omdia,https://omdia.tech.informa.com/pr/2026/jan/global-smartphone-market-grew-2percent-in-2025-while-memory-headwinds-set-the-stage-for-a-challenging-2026,verified,Omdia: Nothing grew 86% and surpassed 3 million units in 2025
+Global,2025,nothing_yoy_growth_pct,86.0,percent,Omdia,https://omdia.tech.informa.com/pr/2026/jan/global-smartphone-market-grew-2percent-in-2025-while-memory-headwinds-set-the-stage-for-a-challenging-2026,verified,
+India,2025,smartphone_shipments_m,154.2,million units,Omdia,https://omdia.tech.informa.com/pr/2026/jan/indias-smartphone-shipments-fell-by-1percent-in-2025-amid-softer-demand-and-cost-pressures-vivo-remains-market-leader,verified,
+India,2025,foldable_shipments_m,,million units,,,to_fill,IDC/Counterpoint country foldable tracker; paywalled
+India,2025,nothing_market_share_pct,,percent,,,to_fill,Counterpoint/Omdia India vendor tracker
+China,2025,foldable_shipments_m,10.01,million units,IDC (via Mordor Intelligence),https://www.mordorintelligence.com/industry-reports/foldable-smartphone-market,secondary,China foldables +9.2% YoY in 2025
+Europe,2025,smartphone_shipments_m,134.2,million units,Omdia,https://www.businesswire.com/news/home/20260223432918/en/Omdia-Apple-and-HONOR-Claim-Record-Market-Shares-as-Europes-Smartphone-Shipment-Dips-1-in-2025,verified,Europe declined 1% in 2025
+Middle East,2025,smartphone_shipments_m,54.8,million units,Omdia,https://omdia.tech.informa.com/pr/2026/feb/middle-east-smartphone-market-grows-13eprcent-in-2025-memory-pressures-to-weigh-on-2026-outlook,verified,Excludes Turkey
+United States,2025,smartphone_shipments_m,161.0,million units,MarketDataForecast (secondary),https://www.marketdataforecast.com/market-reports/united-states-smartphone-market,secondary,Cross-check against IDC/Counterpoint before publishing
+Japan,2024,smartphone_shipments_m,31.9,million units,Accio (secondary),https://www.accio.com/business/best-selling-phone-in-japan-2025,secondary,2025 value still to_fill
+United Kingdom,2025,smartphone_shipments_m,,million units,,,to_fill,Omdia/Counterpoint UK tracker; 14.0M widely cited for 2023
+Germany,2025,smartphone_shipments_m,,million units,,,to_fill,Omdia/Counterpoint Germany tracker
+United Arab Emirates,2025,smartphone_shipments_m,,million units,,,to_fill,Omdia Middle East report gives regional 54.8M only
+Spain,2025,smartphone_shipments_m,,million units,,,to_fill,Omdia Europe report gives regional 134.2M only
+France,2025,smartphone_shipments_m,,million units,,,to_fill,Omdia Europe report gives regional 134.2M only
