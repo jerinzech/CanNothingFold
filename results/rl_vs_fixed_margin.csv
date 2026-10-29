@@ -1,8 +1,8 @@
 strategy,mean_margin_musd,std_margin_musd,delta_vs_best_fixed_musd
-q_learning (learned),151.16,2.73,0.87
-dqn (learned),150.29,2.72,0.0
-fixed $1299,150.29,2.72,
-fixed $1199,141.31,2.55,
-fixed $1099,116.63,2.1,
-fixed $999,89.85,1.62,
-fixed $899,60.47,1.09,
+q_learning (learned),151.61,2.75,2.72
+dqn (learned),150.89,2.74,2.0
+fixed $1299,148.89,2.71,
+fixed $1199,144.17,2.61,
+fixed $1099,128.43,2.32,
+fixed $999,102.22,1.84,
+fixed $899,73.52,1.33,

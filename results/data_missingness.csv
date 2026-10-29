@@ -213,7 +213,7 @@ nothing_prices_clean.csv,analysis_ready,0.0
 foldable_prices_clean.csv,model_id,0.0
 foldable_prices_clean.csv,brand,0.0
 foldable_prices_clean.csv,model,0.0
-foldable_prices_clean.csv,release_year,24.72
+foldable_prices_clean.csv,release_year,24.25
 foldable_prices_clean.csv,is_foldable,0.0
 foldable_prices_clean.csv,country,0.0
 foldable_prices_clean.csv,currency,0.0
@@ -227,8 +227,8 @@ foldable_prices_clean.csv,collected_at,0.0
 foldable_prices_clean.csv,n_listings,0.0
 foldable_prices_clean.csv,local_price_min,0.0
 foldable_prices_clean.csv,local_price_max,0.0
-foldable_prices_clean.csv,us_price_usd,33.21
-foldable_prices_clean.csv,ratio_vs_us,33.21
+foldable_prices_clean.csv,us_price_usd,30.54
+foldable_prices_clean.csv,ratio_vs_us,30.54
 foldable_prices_clean.csv,verified,0.0
 foldable_prices_clean.csv,source_status,0.0
 foldable_prices_clean.csv,model_key,0.0

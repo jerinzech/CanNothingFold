@@ -74,7 +74,9 @@ COUNTRY_CURRENCY = {
     "Mexico": "MXN",
 }
 
-FOLDABLE_RE = re.compile(r"\b(?:fold|flip|razr)\b", flags=re.IGNORECASE)
+# Digit-tolerant word boundary: matches "Flip5"/"Fold4" (digit directly after
+# the token), still blocks "folder"/"foldable" (letter after the token).
+FOLDABLE_RE = re.compile(r"\b(?:fold|flip|razr)(?![a-z])", flags=re.IGNORECASE)
 
 KAGGLE = {
     "D01": "https://www.kaggle.com/datasets/willianoliveiragibin/phone-information-2024",

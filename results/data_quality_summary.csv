@@ -7,4 +7,4 @@ D07 background reviews,1415133,200000,deterministic 200k sample; full corpus cou
 D11 spain_prices.csv,1816,1816,EUR retail; Nothing rows aggregate to 2 models
 D33 price_by_country.csv,19347,19347,compiled; no rows dropped
 nothing_prices.csv,182,182,manual/compiled; no rows dropped
-foldable_prices.csv,271,271,foldable subset; no rows dropped
+foldable_prices.csv,334,334,foldable subset; no rows dropped

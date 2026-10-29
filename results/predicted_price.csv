@@ -1,2 +1,2 @@
 model,hypothetical_device,storage_gb,ram_gb,weight_g,display_in,battery_mah,ppi,release_year,is_foldable,brand_encoding,predicted_price_usd,ci90_low_usd,ci90_high_usd,n_train,n_bootstrap
-random_forest,"Nothing foldable (flip-style, 2027)",512,16,210.0,6.9,4300,420,2027,True,challenger-brand average (10 brands),1204.0,867.86,1650.13,1712,100
+random_forest,"Nothing foldable (flip-style, 2027)",512,16,210.0,6.9,4300,420,2027,True,challenger-brand average (10 brands),1140.5,861.74,1652.89,1712,100

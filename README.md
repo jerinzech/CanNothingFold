@@ -71,7 +71,7 @@ comparator: it contains **zero Nothing models**, so Nothing launch prices live i
 | File | Rows × cols | Contents |
 |---|---:|---|
 | `price_by_country.csv` | 19,347 × 22 | Main long price table: model × country × source × price type |
-| `foldable_prices.csv` | 271 × 22 | Foldable subset for notebooks 02–04 |
+| `foldable_prices.csv` | 334 × 22 | Foldable subset for notebooks 02–04 |
 | `nothing_prices.csv` | 182 × 22 | Nothing-only prices across all sources |
 | `nothing_prices_template.csv` | 104 × 10 | 13 models × 8 target countries; 30 `need` cells |
 | `nothing_official_current.csv` | 123 × 11 | Official store snapshot, 15 markets |
@@ -119,7 +119,7 @@ assumption, not a live rate.
 | `spain_prices_clean.csv` | 1,816 × 13 | Spain EUR retail |
 | `price_by_country_clean.csv` | 19,347 × 24 | Enrichment long table + joins |
 | `nothing_prices_clean.csv` | 182 × 24 | Nothing prices, all sources/price types |
-| `foldable_prices_clean.csv` | 271 × 24 | Foldable subset |
+| `foldable_prices_clean.csv` | 334 × 24 | Foldable subset |
 
 - `results/` — every model output as CSV (graded requirement)
 - `figures/` — every chart as PNG (300 dpi)

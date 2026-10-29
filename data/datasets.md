@@ -63,7 +63,7 @@ into `data/raw/`; the full 1.0 GB download area remains in `data/all-data/`
 | D33 | `data/enrichment/price_by_country.csv` | 19,347 × 22 | **Manual/compiled** | Main long price table |
 | D34 | `data/enrichment/enrichment_market*.csv` | 3 + 18 rows | **Manual** | Global and country market seed |
 | D35 | `worldbank_*.json`, `worldbank_*.csv` | 220 × 11 built | **Manual/API** | 8 World Bank indicators, 20 countries, 2015–2025 |
-| D36 | `data/enrichment/foldable_prices.csv` | 271 × 22 | **Manual/compiled** | Foldable subset of D33 |
+| D36 | `data/enrichment/foldable_prices.csv` | 334 × 22 | **Manual/compiled** | Foldable subset of D33 |
 
 ### Corrections to the original map
 
@@ -297,7 +297,7 @@ verified, source_status, model_key
 
 ### 3.6 `foldable_prices.csv` (D36)
 
-271 rows × 22 columns; the `is_foldable=True` subset of D33. Ready for notebooks 02–04.
+334 rows × 22 columns; the `is_foldable=True` subset of D33. Ready for notebooks 02–04.
 Includes D01 foldable marketplace rows, D03 foldable comparators, India retail
 foldables and the two Spain D11 foldables. The Nothing launch/current rows are not
 foldable (Nothing has no foldable product), so foldable Nothing prices do not exist.
@@ -389,15 +389,17 @@ launch, retail, marketplace and current prices are never mixed.
 
 | Market | All models | n | Foldables | n |
 |---|---:|---:|---:|---:|
-| India | **0.943×** | 897 | **0.968×** | 17 |
-| China | **0.919×** | 897 | **0.940×** | 17 |
-| UAE | **1.011×** | 897 | **1.006×** | 17 |
-| Pakistan | **0.698×** | 896 | **0.785×** | 17 |
-| US | 1.000× | 897 | 1.000× | 17 |
+| India | **0.943×** | 897 | **1.006×** | 22 |
+| China | **0.919×** | 897 | **0.952×** | 22 |
+| UAE | **1.011×** | 897 | **1.023×** | 22 |
+| Pakistan | **0.698×** | 896 | **0.785×** | 21 |
+| US | 1.000× | 897 | 1.000× | 22 |
 
-The old preliminary India figure of 1.006× is **superseded**: it came from a
+The old preliminary India all-models figure of 1.006× is **superseded**: it came from a
 model-key match that ignored storage variants and from a decimal-comma parsing bug.
-The current figure is 0.943× for all competitor models and 0.968× for foldables.
+The current all-models figure is 0.943×; the foldable figure is 1.006× (n=22 after the
+digit-tolerant `FOLDABLE_RE` fix, which previously missed glued names like
+"Galaxy Z Flip5").
 
 ### 5.2 D01 marketplace prices
 
@@ -498,7 +500,7 @@ The collection template is `data/enrichment/nothing_prices_template.csv`; fill a
 Deterministic outputs:
 
 - `data/enrichment/price_by_country.csv` — 19,347 × 22
-- `data/enrichment/foldable_prices.csv` — 271 × 22
+- `data/enrichment/foldable_prices.csv` — 334 × 22
 - `data/enrichment/nothing_prices.csv` — 182 × 22
 - `data/enrichment/nothing_prices_template.csv` — 104 × 10
 - `data/enrichment/enrichment_wb.csv` — 220 × 11
