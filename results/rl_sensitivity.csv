@@ -1,0 +1,10 @@
+elasticity_k,share_pct,learned_margin_musd,best_fixed_price,best_fixed_margin_musd,learned_beats_fixed
+0.5,0.5,78.77,1299,78.77,False
+0.5,1.0,157.54,1299,157.54,False
+0.5,2.0,315.08,1299,315.08,False
+1.0,0.5,75.71,1299,75.28,True
+1.0,1.0,151.43,1299,150.55,True
+1.0,2.0,302.85,1299,301.1,True
+2.0,0.5,72.4,1199,70.78,True
+2.0,1.0,144.8,1199,141.56,True
+2.0,2.0,289.59,1199,283.11,True

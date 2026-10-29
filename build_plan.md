@@ -256,7 +256,7 @@ The build is done when:
 2. `02_ml` (price regression — everything downstream depends on it)
 3. `03_dl` (reuses 02's train/test setup)
 4. `04_nlp` (independent of 02/03; can be built in parallel)
-5. `src/kpi.py` v1 (works with ML + NLP outputs only)
+5. `src/kpi.py` v1 (works with ML + NLP outputs only) — **done 2026-10-29**
 6. `05_rl` (needs 02's price model and 04's sentiment scores)
 7. `06_rnn_lstm` (needs 04's per-review sentiment outputs)
 8. Final pass: figures polish, verification, clean run of everything.

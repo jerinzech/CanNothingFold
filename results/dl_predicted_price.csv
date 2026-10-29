@@ -1,0 +1,2 @@
+model,hypothetical_device,predicted_price_usd,seed_std_usd,seed_min_usd,seed_max_usd,n_seeds
+neural_network,"Nothing foldable (flip-style, 2027)",2254.66,444.93,1567.0,2853.13,5

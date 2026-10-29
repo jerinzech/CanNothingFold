@@ -1,0 +1,6 @@
+topic,top_words,doc_share,manual_label
+0,"phone, often, regret, buying, hangs, disappointed, mark, recommend",0.14,"stability: hangs, regret, not up to the mark"
+1,"quality, indoors, camera, poor, disappointed, recommend, muffled, speaker",0.18,camera & speaker quality indoors
+2,"bad, muffled, speaker, neither, neutral, great, feelings, quality",0.15,audio: muffled speaker
+3,"disappointing, service, customer, returning, soon, mark, disappointed, recommend",0.16,customer service / returns disappointment
+4,"disappointed, after, phone, apps, few, lags, money, worth",0.37,"value for money, lag after a few apps"

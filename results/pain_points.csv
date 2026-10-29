@@ -1,0 +1,7 @@
+pain_point,neg_rows_matching,share_of_negative_pct,aspect,neg_aspect_rating,pos_aspect_rating,aspect_gap
+price/value,239,33.6,,,,
+performance/stability,181,25.4,performance_rating,1.74,3.07,-1.33
+speaker/audio,79,11.1,design_rating,1.69,3.03,-1.34
+camera,75,10.5,camera_rating,1.71,3.03,-1.33
+battery/charging,36,5.1,battery_life_rating,1.67,3.05,-1.37
+display/crease,11,1.5,display_rating,1.74,3.05,-1.31

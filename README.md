@@ -104,6 +104,9 @@ assumption, not a live rate.
   (D03, D14, `nothing_prices.csv`, `enrichment_wb.csv`) that are gated through the
   compiled tables instead
 - `results/data_quality_summary.csv`, `results/data_missingness.csv`
+- `results/kpi_summary.csv`, `results/kpi_cashflow.csv` — final business case
+  (`src/kpi.py`): fair price, break-even units/quarter/share, go/no-go scorecard
+- `figures/kpi_cashflow.png` — cumulative cashflow curve with break-even line
 - `data/processed/*_clean.csv` — notebook 01 outputs (executed 2026-10-29):
 
 | File | Rows × cols | Contents |

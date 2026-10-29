@@ -1,0 +1,24 @@
+kpi,value,unit,source
+fair_price_usd,1204.0,USD,notebook 02 random forest (real: ML estimate)
+fair_price_ci90_low_usd,867.86,USD,notebook 02 bootstrap
+fair_price_ci90_high_usd,1650.13,USD,notebook 02 bootstrap
+dl_price_cross_check_usd,2254.66,USD,"notebook 03 NN — divergent extrapolation, documented as price risk"
+unit_cost_usd,722.4,USD,assumed 60% of fair price (build plan)
+launch_price_usd,1299.0,USD,"notebook 05 RL policy, 2027Q1"
+price_path_min_max_usd,1199-1299,USD,notebook 05 learned policy path
+margin_per_unit_usd,576.6,USD/phone,launch price - unit cost
+addressable_foldable_market_m_units,20.6,M units/yr (2025),"enrichment_market.csv (IDC/Omdia, cited)"
+assumed_share_of_segment_pct,1.0,%,assumption (notebook 05 sensitivity 0.5-2%)
+units_per_quarter_mean,34370,phones/quarter,notebook 05 demand model (simulated)
+cumulative_8q_contribution_musd,151.42,M USD,notebook 05 learned policy (simulated)
+best_fixed_price_baseline_musd,150.29,M USD,"notebook 05 fixed $1,299"
+rl_policy_margin_delta_musd,0.87,M USD,learned policy minus best fixed (simulated)
+assumed_launch_cost_musd,150.0,M USD,assumption; sensitivity 100/150/300/450
+break_even_units,260146,phones,launch cost / margin per unit (at launch price)
+break_even_quarter_base,2028Q4,-,cumulative net cashflow >= 0 (base cost)
+break_even_share_pct,0.99,%,share needed to break even in 8 quarters at base cost
+foldable_listing_segment_share_pct_india,12.48,%,"notebook 02 premium cluster (n=359), India-only"
+top_pain_point,price/value,-,notebook 04: 33.6% of negative reviews
+overall_sentiment_compound,0.4152,-,notebook 04 VADER (synthetic-like corpus)
+go_no_go_checks_passed,5/5,-,"PASS: positive contribution every quarter; PASS: 8-quarter contribution covers assumed launch cost ($150M); PASS: launch price within model CI ($868-$1,650); PASS: learned policy beats best fixed price; PASS: break-even share <= assumed share (1.0%)"
+recommendation,GO,-,conditional on simulated demand; see README price-type and honesty notes
